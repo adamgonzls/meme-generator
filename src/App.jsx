@@ -1,14 +1,13 @@
 import './App.css'
 import Header from "./components/Header"
+import Meme from "./components/Meme"
 
 function App() {
 
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <Meme />
     </div>
   )
 }
