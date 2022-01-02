@@ -6,17 +6,32 @@
   ],
   "plugins": [
     "prettier"
-  ]
+  ],
 
   "rules": {
     //here we can change any rule "off/error/warn"
-    "prettier/prettier": "error" // or warn
+    "prettier/prettier": "error", // or warn
     // this is needed for prettier to work
 
     //example rules
 
-    "no-unused-vars": "warn" // default in airbnb is error
+    "no-unused-vars": "warn", // default in airbnb is error
 
     //you can disable add or remove rules based on your coding taste
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    
+    "react/jsx-first-prop-new-line": [
+      1, "multiline"
+    ],
+    
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 1
+      }
+    ]
   }
 }
