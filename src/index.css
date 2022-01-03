@@ -82,3 +82,10 @@ h1 {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.meme__image {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
